@@ -1,0 +1,86 @@
+.testDiv {
+    margin: 64px;
+    padding: 32px;
+    font-size: 16px;
+    border-radius: 12px;
+    font-family: Inter, sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+
+h2{
+    margin-bottom: 32px;
+}
+
+.button {
+    border-radius: 20px;
+    border: none;
+    padding: 8px 16px;
+    background-color:rgb(58, 107, 170);
+    color: white;
+    margin-right: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.plus {
+    background-color:rgb(47, 143, 90);
+}
+
+.minus {
+    background-color:rgb(165, 64, 51);
+}
+
+.button2 {
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.fas {
+    margin-right: 8px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-field {
+    border-radius: 12px;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 12px;
+    background-color:rgb(255, 255, 255);
+    width: 25%;
+}
+
+.text-field:focus-visible {
+    border-radius: 12px;
+    border: 1px solid rgb(58, 107, 170);
+    outline: none;
+}
+
+.result {
+    padding: 16px;
+    background-color: white;
+    width: max-content;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+.error {
+    font-size: 12px;
+    margin-top: 32px;
+    padding: 8px 10px;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+
